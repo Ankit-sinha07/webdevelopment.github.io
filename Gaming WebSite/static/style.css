@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../static/Customize\ SCUF\ Infinity\ 4PS\ PRO\ PS4\ Gaming\ Controllers\ \ _\ Scuf\ Gaming.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+    
+}
+img{
+    border-radius: 4px;
+    padding: 5px;
+    width: 26px;
+    position: absolute;
+    bottom: 4px;
+    right: 640px;
+}
+
+#navbar{
+background-color: black;
+padding: 10px;
+font-family: 'Stint Ultra Condensed', cursive;
+}
+
+#navbar ul{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 5px;
+    color: bisque;
+    font-size: 23px;
+    padding: 6px 74px;
+}
+
+.search{
+    padding: 6px 15px;
+    position: absolute;
+    left: 87%;
+    top: 6px;
+    border-radius: 8px;
+    box-shadow:2px 2px 3px antiquewhite;
+    outline: none !important;
+}
+
+.search:focus {
+    background-color: #bbb;
+    box-shadow:2px 2px 3px white;
+}
+
+#introSection{
+    color: white;
+    height: 280px;
+    background: center/cover no-repeat url(../static/wallpaperflare.com_wallpaper\ \(1\).jpg);
+}
+
+#sponsorSection{
+    position: absolute;
+    bottom: 10px;
+    right: 44%;
+    color: #00c300;
+    font-family: fantasy;   
+}
+#para1{
+    position: absolute;
+    left: 24%;
+    background: #6d6d6d00;
+    border-radius: 5px;
+    width: 52%;
+    height: 4%;
+    text-align: center;
+    font-family: 'Stint Ultra Condensed';
+    font-size: 37px;
+    padding: 3px 27px;
+    text-shadow: 2px -1px #c521e2;
+    color: chartreuse;
+}
+#para1:hover{
+    text-shadow: 2px -1px chartreuse;
+    color: #c521e2;
+}
+
+#photo{
+    position: absolute;
+    bottom: 94%;
+    left: -3%;
+    height: 50px;
+    width: 191px;
+    border-radius: 48px;
+}
+
+.card1{
+    position: absolute;
+    left: 107%;
+    width: 530px;
+    height: 206px;
+    border-radius: 10px;
+    color: #f9f9f9;
+    background-color: #88888847;
+    box-shadow: 5px 4px 2px;
+    text-shadow: 3px 1px 2px black;
+    bottom: -1%;
+    text-align:center;
+    transition: box-shadow,background-color 0.8s ease-in-out;
+}
+#para5{
+    position: absolute;
+    bottom: 70px;
+    height: 57px;
+    width: 33pc;
+    font-family: 'Staatliches', cursive;
+}
+#para6{
+    position: absolute;
+    bottom: 70px;
+    height: 57px;
+    width: 40pc;
+    font-family: 'Staatliches', cursive;
+}
+
+.card2{
+    position: absolute;
+    left: 290%;
+    width: 647px;
+    height: 101%;
+    border-radius: 10px;
+    color: #f9f9f9;
+    background-color: #88888847;
+    box-shadow: 5px 4px 2px;
+    text-shadow: 3px 1px 2px black;
+    text-align: center;
+    transition: box-shadow,background-color 0.8s ease-in-out;
+}
+.card1:hover{
+    box-shadow: 0 3px 5px 0 blueviolet;
+    transition: box-shadow,background-color 1s ease-in-out;
+    background-color: black;
+}
+.card2:hover{
+    box-shadow: 0 3px 5px 0 rgba(201, 0, 157, 0.904);
+    transition: box-shadow,background-color 1s ease-in-out;
+    background-color: black;
+}
+
+#footer{
+    height: 199px;
+    width: 299px;
+    position: absolute;
+    left: 0px;
+    top: 366px;
+    background: center/contain no-repeat url(../static/andy-holmes-xA26xebY3dw-unsplash.jpg);
+    border-radius: 30px;
+    margin: 3px;
+    box-shadow: 6px 5px 9px black;
+}
+
+#para3{
+    position: absolute;
+    bottom: 80%;
+    left: 37%;
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: 3px 1px 2px black;
+}
+
+#propertyType {
+        position: absolute;
+        display: block;
+        width: 20em;
+        height: 3em;
+        line-height: 3;
+        background: #9c27b0a8;
+        border-radius: .25em;
+        bottom: 73%;
+        left: 44%;
+        outline: 0px;
+        border: 0px;
+        box-shadow: 2px 3px 2px #009e29;
+        font-family: 'ZCOOL KuaiLe', cursive;
+        transition: box-shadow,background-color .5s ease-in-out;
+}
+
+#propertyType:hover{
+    background:#009e2a67;
+    box-shadow: 2px 3px 2px #9c27b0a8;
+    transition: box-shadow,background-color .5s ease-in-out;
+}
+
+#navbar li a:hover{
+    color: grey;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}

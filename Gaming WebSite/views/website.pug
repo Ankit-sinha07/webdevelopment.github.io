@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            li #[a(href ="/") Home]   
+            li #[a(href ="/") About] 
+            li #[a(href ="/support") support] 
+            li #[a(href ="/") Merchendaise]
+            img#photo(src='../static/logo.jpg')
+            input(class='search', type='text', id='search-addon' placeholder='Search')
+        select#propertyType.select.form-control.input-lg(form='addProperty', name='propertyType')
+          option(value='0') Select
+          option(value='1') GRAPHIC-CARD
+          option(value='2') CONSLOLES
+          option(value='3') ACCESSORIES 
+        p#para3 
+            | Form the box below you can select what you want to buy form our site       
+    section#introSection 
+        p#para1  
+          | FAILURE dosen't mean GAME OVER It means TRY again with EXPERIENCE!  
+
+    section#sponsorSection 
+        |  POWERED BY RAZOR &copy
+    img(src='../static/razor.png')
+    
+    footer#footer
+     div.card1
+        p#para5 In this BOX you can write anything you want or you can put images here or whatever you want.
+     div.card2
+        p#para6 In this BOX you can write anything you want or you can put images here or whatever you want.       
+    script
+      include ../static/website.js

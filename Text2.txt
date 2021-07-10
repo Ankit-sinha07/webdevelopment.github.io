@@ -1,0 +1,3 @@
+fs.readFileSync it is use for reading a file in text format...............!
+
+fs.writeFileSync it is used for creating a new Text FILE........!

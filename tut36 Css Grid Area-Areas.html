@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grid </title>
+    <style>
+    .container{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-areas: 
+        'navbar navbar navbar navbar' 
+        'section section section aside'
+        'footer footer footer footer';
+    }
+    .item{
+        background-color: rgb(0, 255, 21);
+        border: 3px solid black;
+        padding: 12px 23px;
+        border-radius: 16px;
+        box-shadow: 4px 8px 8px brown;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    }
+    #navbar{
+        grid-area: navbar;
+    }
+    #section{
+        grid-area: section;
+    }
+    #aside{
+        grid-area: aside;
+    }
+    #footer{
+        grid-area: footer;
+    }
+    #h1{
+        color: rgb(96, 18, 241);
+        text-align: center;
+    }
+    #h2{
+        color: rgb(0, 82, 7);
+        text-align: center;
+    }
+    #h3{
+        color: darkmagenta;
+        text-align: center;
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar" class="item">
+            Home About Contact Us
+        </div>
+        <div id="section" class="item">
+            <h1 id="h1">Section</h1>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi consequuntur quos accusamus iste omnis aut illo expedita facere veniam, sapiente ullam possimus Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, voluptate earum repellat, labore impedit ut at incidunt dolorum maxime fugiat quasi eligendi! Sunt sit exercitationem explicabo cumque quae eius commodi, omnis laboriosam possimus atque? Aliquid molestias ipsum illo non unde sed consequuntur nam rerum. Adipisci soluta mollitia nihil eveniet temporibus aspernatur saepe eaque explicabo eum nostrum itaque, labore porro? Dolor id libero aspernatur voluptas animi distinctio beatae magnam cumque quod, omnis et quia earum repellat repellendus cum necessitatibus quas quam blanditiis vitae quo asperiores dicta sed aliquid fuga! Laboriosam nostrum ut nobis consequatur nam? Cum unde in eos fugiat velit!
+        </div>
+        <div id="aside" class="item">
+            <h1 id="h2">Aside</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas soluta expedita quis Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eaque sequi tenetur commodi natus doloremque quidem! Cumque expedita voluptatem ullam in sit repellat facere vitae esse maxime ad odio quae officia, quam dicta rem quibusdam blanditiis ea eos sequi dolor cupiditate! Neque suscipit, facilis ipsum maxime, harum laborum eveniet numquam delectus saepe sequi unde nostrum corporis! Ullam, libero asperiores in quidem quae voluptatem odit iusto vel perferendis! Quia necessitatibus asperiores non. Aliquam optio in cupiditate laudantium, deserunt neque enim repellendus excepturi! Eaque accusantium, corporis iure facere amet, culpa eius iusto corrupti obcaecati id dolorum rerum atque voluptatibus nisi molestias exercitationem?
+        </div>
+        <div id="footer" class="item">
+            <h1 id="h3">Footer</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aspernatur, quas nihil perferendis, quidem atque sed, accusantium veritatis non delectus repellat repudiandae cumque id excepturi voluptatibus vero deleniti culpa nisi accusamus! Dolores temporibus provident nesciunt facere repellat tempore, sequi voluptatem rerum nostrum aliquam, deserunt ab rem molestias hic non! Fuga sapiente rerum, alias illo tempora iure vero esse nam libero natus consequatur dolore voluptates veniam nemo corrupti. Voluptas ullam pariatur architecto quo, quia doloribus molestias. Voluptatem hic porro eveniet, expedita deleniti quis dolor pariatur sint alias officia vel dignissimos! Dolorum velit veniam officia neque enim cumque aspernatur dolor doloremque magnam minus blanditiis tempora corporis, sunt vitae asperiores, ipsam incidunt. Tempora.</div>
+        <!-- <div class="item">Item-1</div>
+        <div class="item">Item-2</div>
+        <div class="item">Item-3</div>
+        <div class="item">Item-4</div>
+        <div class="item">Item-5</div>
+        <div class="item">Item-6</div>
+        <div class="item">Item-7</div>
+        <div class="item">Item-8</div>
+        <div class="item">Item-9</div>
+        <div class="item">Item-10</div>
+        <div class="item">Item-11</div>
+        <div class="item">Item-12</div>
+        <div class="item">Item-13</div>
+        <div class="item">Item-14</div> -->
+    </div>
+</body>
+</html>

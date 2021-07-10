@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and nth child ppseudo selectors</title>
+    <style>
+        .container{
+           display: block;
+           width: 233px;
+           margin: auto;
+
+        }
+           input{
+               display: block;
+           }
+
+           input[type='text']{
+               padding: 19px;
+               border: 6px solid gold;
+           }
+           a[target='_blank']{
+               font-size: 26px;
+               color: hotpink;
+               margin: 1px;
+               border: 4px solid rgb(212, 0, 71);
+               border-radius: 8px;           
+            }
+
+           a[target='_xbox']{
+            font-size: 30px;   
+            color: rgb(112, 0, 0);
+            margin: 1px;
+            border: 4px solid rgb(0, 119, 139);
+            border-radius: 8px;  
+           }
+
+           a[target='_email']{
+            font-size: 30px;   
+            color: rgb(3, 0, 207);
+            margin: 1px;
+            border: 5px solid rgb(18, 211, 0);
+            border-radius: 10px;  
+           }
+
+           input[type='Email']{
+               color: brown;
+               border: 5px solid purple;
+           }
+           /*This will apply css for third child */
+           /*li:nth-child(4){
+               color: royalblue;
+           }*/ 
+           /*li:nth-child(3n+0){
+               color: seagreen;
+           }*/
+            
+           li:nth-child(3n+1){
+               color: rgb(2, 2, 2);
+           } 
+           /*Odd Child*/
+           /*li:nth-child(Odd){
+              background-color: seagreen;
+              display: inline;
+           }*/
+           /*Even Child*/
+           li:nth-child(Even){
+               background-color: silver;
+               display: inline;
+           }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="http://google.com" target="_blank">Go to Google</a></h1>
+        <h1><a href="http://microsoft.com" target="_xbox">Go to Microsoft</a></h1>
+        <form action="" class="form-control">
+            <input type="text" placeholder="Enter your name">
+            <input type="password" placeholder="Enter your password">
+            <input type="Email" placeholder="Enter your Email">
+            <input type="submit" class="submit">
+            
+        </form>
+        <ul>
+            <li class="item" id="item-1">Item1</li>
+            <li class="item" id="item-2">Item2</li>
+            <li class="item" id="item-3">Item3</li>
+            <li class="item" id="item-4">Item4</li>
+            <li class="item" id="item-5">Item5</li>
+            <li class="item" id="item-6">Item6</li>
+        </ul>
+    </div>
+</body>
+</html>

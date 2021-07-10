@@ -1,0 +1,23 @@
+extends base.pug
+
+block scripts
+  script(src='/static/website.js')
+
+
+block style 
+    style
+      include ../static/support.css 
+
+block content
+    H1 SUPPORT
+    section#helpline
+      p#para1 
+        | IN case of any problem please contact help-line:-123456789
+    form(action="/support" method="post" class="myForm")
+        input#I1(type="text" class = "myInput" name="name" placeholder="Enter your name..")
+        input#I2(type="phone" class= "myInput" name="phone" placeholder="Enter your PhoneNumber..")
+        input#I3(type="email" class= "myInput" name="email" placeholder="Enter your email..")
+        input#I4(type="text" class= "myInput" name="Address" placeholder="Enter your Address..")
+        button(class="btn")  
+            | submit   
+    

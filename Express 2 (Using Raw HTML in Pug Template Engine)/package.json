@@ -1,0 +1,15 @@
+{
+  "name": "high",
+  "version": "1.0.0",
+  "description": "This is a package that i created while styding node and Express",
+  "main": "application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankit Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}

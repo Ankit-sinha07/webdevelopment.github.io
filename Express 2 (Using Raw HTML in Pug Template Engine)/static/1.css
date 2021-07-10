@@ -1,0 +1,84 @@
+body{
+    background-image: url(/static/wp5857206-call-of-duty-warzone-4k-wallpapers.jpg);
+    background-size: cover;
+}
+#Buy{
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    right: 44%;
+    bottom: 49%;
+}
+
+#btn{
+    position: absolute;
+    right: 45%;
+    bottom: 41%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px;
+    height: 6%;
+    width: 9%;
+    background-color: gray;
+}
+#btn:hover{
+    background-color: greenyellow;
+}
+input{
+    box-shadow: 6px 6px 3px;
+}
+input:hover{
+  border-radius: 12px;
+}
+
+h1:hover{
+    text-shadow: 3px 2px 1px #d82d2d;
+    color: black;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #d82d2d;
+    position: absolute;
+    right: 32%;
+    text-shadow: 3px 2px 1px black;
+    width: 34%;
+    border-radius: 15px;
+    top: 18px;
+    text-align: center;
+}
+p{
+    position: absolute;
+    bottom: 67%;
+    right: 27%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 4px 3px 5px;
+    background-color: bisque;
+    width: 41%;
+    border-radius: 29px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li {
+    list-style: none;
+    padding: 11px;
+    bottom: -96px;
+    right: -43%;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    text-shadow: 1px 0px 2px;
+    padding: 4px;
+    border-radius: 12px;
+    position: relative;
+    left: -18px;
+    color: black;
+}
+a:hover{
+    color: blueviolet;
+    font-weight: 1000;
+}

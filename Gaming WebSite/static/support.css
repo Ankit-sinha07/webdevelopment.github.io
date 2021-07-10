@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/static/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    border-radius: 4px;
+    padding: 5px;
+    width: 26px;
+    position: absolute;
+    bottom: 4px;
+    right: 640px;
+}
+
+h1{
+    color: wheat;
+    background: black;
+    padding: 1px 46%;
+    height: 56px;
+    font-size: 41px;
+    TEXT-ALIGN: center;
+    font-family: 'Stint Ultra Condensed';
+}
+h1:hover{
+    background-color: white;
+    transition: .5s ease-in-out;
+    color: black;
+    transition: 1s;
+}
+
+#helpline{
+    width: 50%;
+    position: absolute;
+    left: 355px;
+    bottom: 79%;
+    font-family: 'Stint Ultra Condensed';
+    color: wheat;
+    font-size: 52px;
+}
+
+#sponsorSection{
+    position: absolute;
+    bottom: 10px;
+    right: 44%;
+    color: #00c300;
+    font-family: fantasy;   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 23vh 181px;
+    width: 74vw;
+    border-radius: 10px;
+}
+#I1{
+    border-radius: 10px;
+    font-family: 'Stint Ultra Condensed';
+    font-size: 150%;
+}
+#I2{
+    border-radius: 10px;
+    font-family: 'Stint Ultra Condensed';
+    font-size: 150%;
+}
+#I3{
+    border-radius: 10px;
+    font-family: 'Stint Ultra Condensed';
+    font-size: 150%;
+}
+#I4{
+    border-radius: 10px;
+    font-family: 'Stint Ultra Condensed';
+    font-size: 150%;
+}
+.btn{
+    font-family: 'Stint Ultra Condensed';
+    font-size: 150%;
+}

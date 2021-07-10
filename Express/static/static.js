@@ -1,0 +1,1 @@
+console.log("Ankit is Going to be Rich in next 5 years.")

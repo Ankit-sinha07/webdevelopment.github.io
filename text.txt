@@ -1,0 +1,5 @@
+
+fs.readFileSync it is used for reading a file in text format...............!
+utf-8 is a default value
+
+fs.writeFileSync it is used for creating a new Text FILE........!
